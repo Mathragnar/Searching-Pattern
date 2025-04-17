@@ -1,7 +1,5 @@
 import csv
 
-count = 0
-
 with open('data.csv', 'r') as file:
     reader = csv.reader(file)
     data = list(reader)
