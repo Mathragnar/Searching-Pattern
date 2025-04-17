@@ -5,8 +5,7 @@ numbers = []
 
 with open('data.csv', 'r') as file:
     reader = csv.reader(file)
-    data = list(reader)
-    for row_index, row in enumerate(data):
+    for row_index, row in enumerate(reader):
         if row_index > 0:
             for number_index, number in enumerate(row):
                 numbers.append(number)
