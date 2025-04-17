@@ -12,4 +12,3 @@ with open('data.csv', 'r') as file:
             #print(number)
             if number == row[i]:
                 print(f"Found {number} in row {row}")
-                count += 1
