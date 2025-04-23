@@ -17,5 +17,3 @@ for number, quantity in ordered_numbers:
     print(f"{number} appears {quantity} time{'s' if quantity > 1 else ''}")
     if quantity == 1:
         break
-
-new_variable = 0
