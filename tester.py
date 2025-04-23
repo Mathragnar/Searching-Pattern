@@ -13,12 +13,4 @@ ordered_numbers = sorted(counter.items(), key=lambda item: item[1], reverse=True
 for number, quantity in ordered_numbers:
     print(f"{number} appears {quantity} time{'s' if quantity > 1 else ''}")
 
-# This code counts the occurrences of each number in the list and sorts them in descending order.
-# It then prints each number along with its count, using the correct pluralization for "time".
-# The code is a simple example of how to use the Counter class from the collections module to count occurrences of items in a list.
-# The code also demonstrates how to sort the counted items based on their frequency.
-# The code is a simple example of how to use the Counter class from the collections module to count occurrences of items in a list.
-# The code also demonstrates how to sort the counted items based on their frequency.
-# The code is a simple example of how to use the Counter class from the collections module to count occurrences of items in a list.
-# The code also demonstrates how to sort the counted items based on their frequency.
-# The code is a simple example of how to use the Counter class from the collections module to count occurrences of items in a list.
+new_variable = 0
