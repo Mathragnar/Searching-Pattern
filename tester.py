@@ -12,5 +12,3 @@ ordered_numbers = sorted(counter.items(), key=lambda item: item[1], reverse=True
 
 for number, quantity in ordered_numbers:
     print(f"{number} appears {quantity} time{'s' if quantity > 1 else ''}")
-
-new_variable = 0
